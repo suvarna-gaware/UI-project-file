@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.container
+{
+    width: 80%;
+    min-height: 400px;
+    /* border: 1px solid black; */
+    padding-bottom: 60px;
+    margin: auto;
+    
+}
+/* .Main{ */
+    /* width: 100%; */
+    /* min-height: 400px; */
+/* } */
+.main-header-div1{
+    width: 50%;
+    min-height: 400px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    margin-bottom:40px;
+    padding-top: 40px;
+    background-color: red;
+    float: left;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main-header-div1 h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.main-header-div1 h3{
+    padding-bottom: 20px;
+}
+.clearifix::after{
+    display: block;
+    contain: "";
+    clear: both;
+}
+
+#btn1{
+    width: 20%;
+    height:40px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+     margin-top: 40px; 
+    border-radius: 20px;
+    color: white;
+    background-color:royalblue;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    
+    }
+    .main-header-div2{
+     width:50%;
+     min-height: 400px;
+     font-size:20px;
+     padding-right:10px; 
+     padding-bottom: 40px;
+     padding-top: 40px;
+     float:left;
+     /* background-color: grey; */
+     margin-bottom: 10px;
+     margin:auto;
+     text-align: center;
+    }
+    img{
+        width: 10%;
+        border-radius: 20px;
+        /* height: 10px; */
+        /* border-radius: 20px; */
+        /* margin-left: 10px; */
+        /* margin-right: 30px; */
+    }
+    #na{
+        width: 50%;
+        height: 30px;
+        margin-top: 10px;
+    }
+    #eid{
+        width: 50%;
+        height: 30px;
+        margin-top:10px;
+    }
+    #pw{
+        width: 50%;
+        height: 30px;
+        margin: 10px;
+    }
+    #btn2{
+        width: 50%;
+        height: 30px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 50px;
+        /* border-radius: 10px; */
+        color: white;
+        background-color:royalblue;
+        padding-bottom: 10px;
+        margin:auto;
+    }   
